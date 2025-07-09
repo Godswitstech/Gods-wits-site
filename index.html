@@ -107,5 +107,24 @@
       <a href="mailto:wittywondersd@gmail.com" class="text-red-600 hover:underline">Email</a>
     </div>
   </section>
+<!-- WhatsApp Chat Bubble -->
+<script>
+  const waButton = document.createElement("a");
+  waButton.href = "https://wa.me/2348100481491";
+  waButton.target = "_blank";
+  waButton.innerHTML = "💬";
+  waButton.style.position = "fixed";
+  waButton.style.bottom = "20px";
+  waButton.style.right = "20px";
+  waButton.style.background = "#25D366";
+  waButton.style.color = "white";
+  waButton.style.fontSize = "24px";
+  waButton.style.padding = "14px";
+  waButton.style.borderRadius = "50%";
+  waButton.style.boxShadow = "0 2px 10px rgba(0,0,0,0.3)";
+  waButton.style.textDecoration = "none";
+  waButton.title = "Chat with us on WhatsApp";
+  document.body.appendChild(waButton);
+</script>
 </body>
 </html>
