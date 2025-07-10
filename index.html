@@ -7,13 +7,13 @@
   <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body class="bg-gray-100 text-gray-800 font-sans">
+
   <!-- Header -->
   <header class="bg-purple-900 text-white text-center py-6">
     <img src="logo.png" alt="Logo" class="mx-auto h-20 mb-4" />
     <h1 class="text-3xl font-bold">GOD'SWITS GLOBAL TECHNOLOGY</h1>
     <p class="text-base font-medium leading-tight">AGBOOLA TEMIDAYO</p>
-   <p class="text-sm text-blue-600 font-semibold -mt-1">CEO</p>
-
+    <p class="text-sm text-blue-400 font-semibold -mt-1">CEO</p>
   </header>
 
   <!-- Navigation -->
@@ -32,7 +32,7 @@
     <h2 class="text-2xl font-semibold mb-2">Welcome here!</h2>
     <p class="max-w-xl mx-auto">
       Welcome to God'sWits Global Technology. We offer phone and laptop repairs, and sell reliable gadgets at affordable prices.
-      Home delivery is available at request.
+      Home delivery is available on request.
     </p>
   </section>
 
@@ -91,15 +91,14 @@
   <!-- Contact Section -->
   <section id="contact" class="p-6 bg-white">
     <h2 class="text-2xl font-bold text-center mb-4">Contact Us</h2>
-    <form action="https://formspree.io/f/mvgrepoz" method="POST">
-    <label> 
-wittywondersd@gmail.com 
-    <input type="email" name="email"
-</label>
-      <label class="block text-left">Your Name</label>
-      <input type="text" name="name" required class="w-full p-2 border border-gray-300 rounded mb-4"/>
+    <form action="https://formspree.io/f/mvgrepoz" method="POST" class="max-w-xl mx-auto">
+      <label class="block text-left mb-1">Your Email</label>
+      <input type="email" name="email" required class="w-full p-2 border border-gray-300 rounded mb-4" placeholder="you@example.com"/>
 
-      <label class="block text-left">Your Demand</label>
+      <label class="block text-left mb-1">Your Name</label>
+      <input type="text" name="name" required class="w-full p-2 border border-gray-300 rounded mb-4" placeholder="John Doe"/>
+
+      <label class="block text-left mb-1">Your Demand</label>
       <textarea name="demand" rows="5" required class="w-full p-2 border border-gray-300 rounded mb-4" placeholder="Type your request or gadget need..."></textarea>
 
       <input type="hidden" name="_subject" value="New Customer placed an order">
@@ -113,5 +112,31 @@ wittywondersd@gmail.com
       <a href="mailto:wittywondersd@gmail.com" class="text-purple-600 hover:underline">Email</a>
     </div>
   </section>
+
+  <!-- WhatsApp Chat Bubble -->
+  <script>
+    const waButton = document.createElement("a");
+    waButton.href = "https://wa.me/2348100481491";
+    waButton.target = "_blank";
+    waButton.innerHTML = "💬";
+    waButton.style.position = "fixed";
+    waButton.style.bottom = "20px";
+    waButton.style.right = "20px";
+    waButton.style.background = "#25D366";
+    waButton.style.color = "white";
+    waButton.style.fontSize = "24px";
+    waButton.style.padding = "14px";
+    waButton.style.borderRadius = "50%";
+    waButton.style.boxShadow = "0 2px 10px rgba(0,0,0,0.3)";
+    waButton.style.textDecoration = "none";
+    waButton.title = "Chat with us on WhatsApp";
+    document.body.appendChild(waButton);
+  </script>
+
+  <!-- Footer -->
+  <footer class="bg-purple-900 text-white text-center py-4 mt-10">
+    <p class="text-sm">© 2025 God'sWits Global Technology. All rights reserved.</p>
+  </footer>
+
 </body>
 </html>
