@@ -1,1 +1,60 @@
-<!DOCTYPE html><html><head><title>Contact</title></head><body><h1>Contact Page</h1></body></html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact - God'sWits Global Technology</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+</head>
+<body class="bg-gray-100 text-gray-800 font-sans flex flex-col min-h-screen">
+
+  <!-- Header -->
+  <header class="bg-purple-900 text-white text-center py-6 animate__animated animate__fadeInDown">
+    <h1 class="text-3xl font-bold">Contact Us</h1>
+    <p class="text-sm">Reach out for orders, support, or inquiries.</p>
+  </header>
+
+  <!-- Navigation -->
+  <nav class="bg-white shadow-md sticky top-0 z-50 animate__animated animate__fadeIn">
+    <ul class="flex justify-center space-x-6 p-4 text-purple-900 font-semibold">
+      <li><a href="index.html" class="hover:text-purple-700">Home</a></li>
+      <li><a href="products.html" class="hover:text-purple-700">Products</a></li>
+      <li><a href="services.html" class="hover:text-purple-700">Services</a></li>
+      <li><a href="contact.html" class="hover:text-purple-700">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Contact Form -->
+  <main class="flex-grow">
+    <section class="p-6 animate__animated animate__fadeInUp">
+      <form action="https://formspree.io/f/mvgrepoz" method="POST" class="max-w-xl mx-auto bg-white shadow-md rounded p-6">
+        <label class="block text-left mb-1">Your Email</label>
+        <input type="email" name="email" required class="w-full p-2 border border-gray-300 rounded mb-4" placeholder="you@example.com"/>
+
+        <label class="block text-left mb-1">Your Name</label>
+        <input type="text" name="name" required class="w-full p-2 border border-gray-300 rounded mb-4"/>
+
+        <label class="block text-left mb-1">Your Message</label>
+        <textarea name="demand" rows="5" required class="w-full p-2 border border-gray-300 rounded mb-4" placeholder="Type your request or gadget need..."></textarea>
+
+        <input type="hidden" name="_subject" value="New Customer Message">
+        <button type="submit" class="bg-purple-800 hover:bg-purple-700 text-white px-4 py-2 rounded w-full">Send Message</button>
+      </form>
+
+      <div class="text-center mt-6">
+        <p class="mb-2">Connect with us:</p>
+        <a href="https://facebook.com/wittywonder1" target="_blank" class="text-blue-600 hover:underline">Facebook</a> |
+        <a href="https://wa.me/2348100481491" target="_blank" class="text-green-600 hover:underline">WhatsApp</a> |
+        <a href="mailto:wittywondersd@gmail.com" class="text-purple-600 hover:underline">Email</a>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-purple-900 text-white text-center py-4 mt-10 animate__animated animate__fadeInUp">
+    <p class="text-sm">© 2025 God'sWits Global Technology. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
