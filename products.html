@@ -1,1 +1,58 @@
-<!DOCTYPE html><html><head><title>Products</title></head><body><h1>Products Page</h1></body></html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Products - God'sWits Global Technology</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+</head>
+<body class="bg-gray-100 text-gray-800 font-sans flex flex-col min-h-screen">
+
+  <!-- Header -->
+  <header class="bg-purple-900 text-white text-center py-6 animate__animated animate__fadeInDown">
+    <h1 class="text-3xl font-bold">Products</h1>
+    <p class="text-sm">Check our latest gadgets and pricing</p>
+  </header>
+
+  <!-- Navigation -->
+  <nav class="bg-white shadow-md sticky top-0 z-50 animate__animated animate__fadeIn">
+    <ul class="flex justify-center space-x-6 p-4 text-purple-900 font-semibold">
+      <li><a href="index.html" class="hover:text-purple-700">Home</a></li>
+      <li><a href="products.html" class="hover:text-purple-700">Products</a></li>
+      <li><a href="services.html" class="hover:text-purple-700">Services</a></li>
+      <li><a href="contact.html" class="hover:text-purple-700">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Product Section -->
+  <main class="flex-grow">
+    <section class="p-6 max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 animate__animated animate__fadeInUp">
+      <div>
+        <h2 class="text-xl font-semibold mb-3 text-purple-800">iPhones</h2>
+        <ul class="space-y-2">
+          <li>13 Pro (128GB) — ₦710,000</li>
+          <li>13 (128GB) — ₦580,000</li>
+          <li>12 Pro Max (128GB) — ₦700,000</li>
+          <!-- ...Add the rest here... -->
+        </ul>
+      </div>
+      <div>
+        <h2 class="text-xl font-semibold mb-3 text-purple-800">Samsung</h2>
+        <ul class="space-y-2">
+          <li>S8 (4+64GB) — ₦190,000</li>
+          <li>S9 (4+64GB) — ₦195,000</li>
+          <li>S9 Plus (6+64GB) — ₦210,000</li>
+          <!-- ...Add the rest here... -->
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-purple-900 text-white text-center py-4 mt-10 animate__animated animate__fadeInUp">
+    <p class="text-sm">© 2025 God'sWits Global Technology. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
