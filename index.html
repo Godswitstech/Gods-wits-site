@@ -66,6 +66,83 @@
         </div>
       </div>
     </section>
+<!-- Maintenance Tips Section -->
+<section id="maintenance" class="p-6 bg-gray-50 animate__animated animate__fadeInUp">
+  <h2 class="text-2xl font-bold text-center text-purple-900 mb-6">Maintenance Tips</h2>
+
+  <div class="max-w-5xl mx-auto space-y-4 text-sm leading-relaxed">
+
+    <!-- Physical Maintenance -->
+    <div class="border rounded shadow bg-white">
+      <button onclick="toggleTip('tip1')" class="flex justify-between items-center w-full px-4 py-3 text-left font-semibold text-purple-800">
+        <span class="flex items-center gap-2">
+          <i data-lucide="shield-check" class="w-5 h-5"></i>
+          1. Physical Maintenance
+        </span>
+        <i data-lucide="chevron-down" id="tip1-icon" class="w-5 h-5 transition-transform"></i>
+      </button>
+      <div id="tip1" class="px-4 pb-4 hidden">
+        <p><strong>Cleaning:</strong> Regularly clean your phone with a soft, lint-free cloth to remove dust and debris. Avoid harsh chemicals or abrasive materials that could damage the screen or casing.</p>
+        <p><strong>Protective Accessories:</strong> Use a sturdy case/flip case and screen protector to shield your phone from drops, scratches, and other physical damage.</p>
+        <p><strong>Temperature and Moisture:</strong> Avoid exposing your phone to extreme temperatures (hot or cold) and moisture, as these can negatively impact battery life and internal components.</p>
+        <p><strong>Handling:</strong> Be mindful of how you handle your phone. Avoid dropping it, placing it in hot environments, or exposing it to liquids.</p>
+      </div>
+    </div>
+
+    <!-- Battery and Charging -->
+    <div class="border rounded shadow bg-white">
+      <button onclick="toggleTip('tip2')" class="flex justify-between items-center w-full px-4 py-3 text-left font-semibold text-purple-800">
+        <span class="flex items-center gap-2">
+          <i data-lucide="battery-charging" class="w-5 h-5"></i>
+          2. Battery and Charging
+        </span>
+        <i data-lucide="chevron-down" id="tip2-icon" class="w-5 h-5 transition-transform"></i>
+      </button>
+      <div id="tip2" class="px-4 pb-4 hidden">
+        <p><strong>Charging Practices:</strong> Avoid letting your battery drain completely or charging it to 100% all the time. Keeping the charge between 20% and 80% is generally recommended for optimal battery health, according to Textmagic.</p>
+        <p><strong>Charger:</strong> Use the original charger provided with your device or a certified alternative. Using incompatible chargers can damage the battery.</p>
+        <p><strong>Overcharging:</strong> Unplug your phone once it reaches 100% to avoid overcharging, even though modern phones have charging protections.</p>
+        <p><strong>Battery-Draining Apps:</strong> Limit the use of battery-draining apps and games, especially when your battery is low.</p>
+        <p><strong>Power Saving Mode:</strong> Utilize battery-saving modes or low power mode when your battery is running low.</p>
+      </div>
+    </div>
+
+    <!-- Software and Storage -->
+    <div class="border rounded shadow bg-white">
+      <button onclick="toggleTip('tip3')" class="flex justify-between items-center w-full px-4 py-3 text-left font-semibold text-purple-800">
+        <span class="flex items-center gap-2">
+          <i data-lucide="hard-drive" class="w-5 h-5"></i>
+          3. Software and Storage
+        </span>
+        <i data-lucide="chevron-down" id="tip3-icon" class="w-5 h-5 transition-transform"></i>
+      </button>
+      <div id="tip3" class="px-4 pb-4 hidden">
+        <p><strong>Software Updates:</strong> Keep your phone's operating system updated. Updates often include security patches, performance improvements, and bug fixes.</p>
+        <p><strong>App Management:</strong> Regularly uninstall apps you no longer use and clear the cache to free up storage space and improve performance.</p>
+        <p><strong>Data Backups:</strong> Back up your important data regularly to protect against data loss due to hardware failure or other issues.</p>
+        <p><strong>Storage Space:</strong> Monitor your phone's storage space. Running out of space can slow down your phone.</p>
+      </div>
+    </div>
+
+    <!-- General Tips -->
+    <div class="border rounded shadow bg-white">
+      <button onclick="toggleTip('tip4')" class="flex justify-between items-center w-full px-4 py-3 text-left font-semibold text-purple-800">
+        <span class="flex items-center gap-2">
+          <i data-lucide="smartphone" class="w-5 h-5"></i>
+          4. General Tips
+        </span>
+        <i data-lucide="chevron-down" id="tip4-icon" class="w-5 h-5 transition-transform"></i>
+      </button>
+      <div id="tip4" class="px-4 pb-4 hidden">
+        <p><strong>Don't Overload:</strong> Avoid keeping too many apps open in the background. Close apps you are not actively using to save resources.</p>
+        <p><strong>Limit Notifications:</strong> Disable push notifications for non-essential apps to reduce distractions and save battery.</p>
+        <p><strong>Use Headphones or Speakers:</strong> Reduce strain on your phone's speaker by using headphones or a speakerphone when possible.</p>
+        <p><strong>Seek Professional Help:</strong> If you encounter any issues or your phone requires repairs, seek professional help from a reputable repair service <a href="contact.html" class="text-green-600 hover:text-blue-800">here</a>.</p>
+      </div>
+    </div>
+
+  </div>
+</section>
   </main>
 
   <script>
