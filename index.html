@@ -168,5 +168,15 @@
     <p class="text-sm">© 2025 God'sWits Global Technology. All rights reserved.</p>
   </footer>
 
+<script>
+  function toggleTip(id) {
+    const content = document.getElementById(id);
+    const icon = document.getElementById(id + '-icon');
+    content.classList.toggle('hidden');
+    icon.classList.toggle('rotate-180');
+  }
+
+  lucide.createIcons(); // Load all Lucide icons
+</script>
 </body>
 </html>
